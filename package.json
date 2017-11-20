@@ -1,0 +1,10 @@
+{
+  "name": "joinchat",
+  "description": "example chat",
+  "version": "0.0.1",
+  "dependencies": {
+  },
+  "engines": {
+    "node": "6.11.1"
+  }
+}
