@@ -8,7 +8,7 @@
     "node": "6.11.1"
   },
   "scripts": {
-    "heroku-prebuild": "node public/website-server.js",
-    "heroku-postbuild": "node server/peer-server.js"
+    "heroku-prebuild": "cd server && node peer-server.js",
+    "heroku-postbuild": "cd public && node website-server.js"
   }
 }
